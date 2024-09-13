@@ -18,8 +18,8 @@ jobs:
     - name: Download image
       run: |
         tail=`curl "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | grep -oP "th\?id=.*?jpg"`
-        image_name=`echo $tail | grep -oP 'OHR\.\K([a-zA-Z]+)'`
-        wget -O "images/${image_name}.jpg" https://bing.com/${tail}
+        # image_name=`echo $tail | grep -oP 'OHR\.\K([a-zA-Z]+)'`
+        wget -O "images/img.jpg" https://bing.com/${tail}
 
     - name: Upadte README
       run: |
