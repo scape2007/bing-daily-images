@@ -4,6 +4,6 @@
 
 use github actions to download www.bing.com images.
 
-last update:2024-12-21 02:08:12 UTC
+last update:2024-12-22 02:16:21 UTC
 
 all images since 2020-05-10 [here](https://github.com/counter2015/bing-daily-images/tree/master/images) 
